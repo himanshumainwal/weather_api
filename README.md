@@ -15,8 +15,8 @@ This is a simple React-based Weather App that allows users to search for a city 
 ##  Installation & Setup
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-username/weather-app.git
-cd weather-app
+git clone https://github.com/himanshumainwal/weather_api.git
+cd weather_api
 ```
 
 ### 2️⃣ Install Dependencies
