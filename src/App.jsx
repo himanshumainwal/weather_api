@@ -112,13 +112,13 @@ const WeatherApp = () => {
           <h2 className="text-3xl font-bold text-center mb-4">
             {weather.name}, {weather.sys.country}
           </h2>
-          <div className="flex justify-around">
+          <div className="flex justify-around gap-3">
             <div className="weather-icon text-9xl">{getWeatherIcon(weather.weather[0].main)}</div>
             <div>
               <p className="text-xl">{weather.weather[0].description}</p>
               <p className="text-4xl font-bold">{Math.round(weather.main.temp)}°C</p>
               <p>Humidity: {weather.main.humidity}%</p>
-              <p>Wind Speed: {weather.wind.speed} m/s</p>
+              <p>Wind: {weather.wind.speed} m/s</p>
             </div>
           </div>
         </div>
